@@ -2,10 +2,16 @@
 name = "szkolenie-rust-2025"
 version = "0.0.1"
 edition = "2021"
+authors = ["Maciej Oliwa <oliwa.maciej@gmail.com>"]
+default-run = "hello_world"
 
 [[bin]]
 name = "hello_world"
 path = "src/hello_world.rs"
+
+[[bin]]
+name = "primitive_types"
+path = "src/primitive_types.rs"
 
 [dependencies]
 my_libs = { path = "./libs" }
