@@ -1,0 +1,11 @@
+# Rust build folder
+target/
+
+# Rust cargo lock file
+Cargo.lock
+
+# Additional files - if you're forking this repo you might add whatever you like in here
+tags
+tags.lock
+tags.temp
+
