@@ -13,6 +13,26 @@ path = "src/hello_world.rs"
 name = "primitive_types"
 path = "src/primitive_types.rs"
 
+[[bin]]
+name = "compound_types"
+path = "src/compound_types.rs"
+
+[[bin]]
+name = "string_types"
+path = "src/string_types.rs"
+
+[[bin]]
+name = "structs_enums"
+path = "src/structs_enums.rs"
+
+[[bin]]
+name = "consts"
+path = "src/consts.rs"
+
+[[bin]]
+name = "slice_parsing"
+path = "src/examples/empty_slice_parsing.rs"
+
 [dependencies]
 my_libs = { path = "./libs" }
 
