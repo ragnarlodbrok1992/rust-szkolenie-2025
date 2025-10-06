@@ -57,6 +57,10 @@ fn main() {
     println!("{:?}", empty_array);
     
     println!();
+
+    // Panic example - also RUST_BACKTRACE
+    let x = vec![1, 2, 3];
+    let _ = &x[4..4];
 }
 
 // Helper functions
