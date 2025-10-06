@@ -1,7 +1,7 @@
 [package]
 name = "szkolenie-rust-2025"
 version = "0.0.1"
-edition = "2021"
+edition = "2024"
 authors = ["Maciej Oliwa <oliwa.maciej@gmail.com>"]
 default-run = "hello_world"
 
@@ -22,8 +22,12 @@ name = "string_types"
 path = "src/string_types.rs"
 
 [[bin]]
-name = "structs_enums"
-path = "src/structs_enums.rs"
+name = "structs"
+path = "src/structs.rs"
+
+[[bin]]
+name = "enums"
+path = "src/enums.rs"
 
 [[bin]]
 name = "consts"
@@ -32,6 +36,22 @@ path = "src/consts.rs"
 [[bin]]
 name = "slice_parsing"
 path = "src/examples/empty_slice_parsing.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+[[bin]]
+name = "scopes"
+path = "src/scopes.rs"
+
+[[bin]]
+name = "higher_order_functions"
+path = "src/hof.rs"
+
+[[bin]]
+name = "traits_impls"
+path = "src/traits_impls.rs"
 
 [dependencies]
 my_libs = { path = "./libs" }
