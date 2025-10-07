@@ -14,6 +14,10 @@ name = "primitive_types"
 path = "src/primitive_types.rs"
 
 [[bin]]
+name = "types_continued"
+path = "src/types_continued.rs"
+
+[[bin]]
 name = "compound_types"
 path = "src/compound_types.rs"
 
