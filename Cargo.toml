@@ -46,8 +46,20 @@ name = "functions"
 path = "src/functions.rs"
 
 [[bin]]
+name = "raii"
+path = "src/raii.rs"
+
+[[bin]]
 name = "scopes"
 path = "src/scopes.rs"
+
+[[bin]]
+name = "borrow"
+path = "src/borrow.rs"
+
+[[bin]]
+name = "lifetimes"
+path = "src/lifetimes.rs"
 
 [[bin]]
 name = "higher_order_functions"
@@ -56,6 +68,22 @@ path = "src/hof.rs"
 [[bin]]
 name = "traits_impls"
 path = "src/traits_impls.rs"
+
+[[bin]]
+name = "example_code_lifetime"
+path = "src/example_code_lifetime.rs"
+
+[[bin]]
+name = "error_handling"
+path = "src/error_handling.rs"
+
+[[bin]]
+name = "macro_rules"
+path = "src/macro_rules.rs"
+
+[[bin]]
+name = "attributes"
+path = "src/attributes.rs"
 
 [dependencies]
 my_libs = { path = "./libs" }
