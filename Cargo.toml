@@ -84,16 +84,24 @@ name = "example_code_lifetime"
 path = "src/example_code_lifetime.rs"
 
 [[bin]]
-name = "error_handling"
-path = "src/error_handling.rs"
-
-[[bin]]
 name = "macro_rules"
 path = "src/macro_rules.rs"
 
 [[bin]]
-name = "attributes"
-path = "src/attributes.rs"
+name = "error_handling"
+path = "src/error_handling.rs"
+
+[profile.panic_unwind]
+inherits = "dev"
+panic = "unwind"
+
+[profile.panic_abort]
+inherits = "dev"
+panic = "abort"
+
+[[bin]]
+name = "testing"
+path = "src/testing.rs"
 
 # Coding tasks binaries are defined here
 [[bin]]
