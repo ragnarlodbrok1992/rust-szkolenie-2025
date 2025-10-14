@@ -5,6 +5,8 @@ edition = "2024"
 authors = ["Maciej Oliwa <oliwa.maciej@gmail.com>"]
 default-run = "hello_world"
 
+# All binaries for examples are here
+
 [[bin]]
 name = "hello_world"
 path = "src/hello_world.rs"
@@ -20,6 +22,14 @@ path = "src/types_continued.rs"
 [[bin]]
 name = "compound_types"
 path = "src/compound_types.rs"
+
+[[bin]]
+name = "control_flow"
+path = "src/control_flow.rs"
+
+[[bin]]
+name = "control_flow_cont"
+path = "src/control_flow_part_2.rs"
 
 [[bin]]
 name = "string_types"
@@ -84,6 +94,11 @@ path = "src/macro_rules.rs"
 [[bin]]
 name = "attributes"
 path = "src/attributes.rs"
+
+# Coding tasks binaries are defined here
+[[bin]]
+name = "fizzbuzz"
+path = "src/coding/001-fizzbuzz-with-prime-factorization.rs"
 
 [dependencies]
 my_libs = { path = "./libs" }

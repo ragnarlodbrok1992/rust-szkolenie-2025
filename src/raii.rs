@@ -1,5 +1,3 @@
-
-
 fn create_box() {
     let _box1 = Box::new(123i32);
 }
