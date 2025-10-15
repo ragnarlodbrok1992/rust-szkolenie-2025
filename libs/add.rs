@@ -3,6 +3,8 @@ pub fn add(a: i32, b: i32) -> i32 {
 }
 
 // Test with built-in test framework
+// Run with: cargo test -p my_libs
+//           cargo test --doc -p my_libs
 #[cfg(test)]
 mod tests {
     use super::*;

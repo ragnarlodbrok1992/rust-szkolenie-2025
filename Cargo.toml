@@ -100,14 +100,43 @@ inherits = "dev"
 panic = "abort"
 
 [[bin]]
-name = "testing"
-path = "src/testing.rs"
+name = "multithreaded"
+path = "src/multithreaded.rs"
+
+[[bin]]
+name = "async"
+path = "src/async.rs"
 
 # Coding tasks binaries are defined here
 [[bin]]
 name = "fizzbuzz"
 path = "src/coding/001-fizzbuzz-with-prime-factorization.rs"
 
+[[bin]]
+name = "hangman_game"
+path = "src/coding/002-hangman-game.rs"
+
+[[bin]]
+name = "number_quessing_game"
+path = "src/coding/003-number-quessing-game.rs"
+
+[[bin]]
+name = "fibonacci_sequence"
+path = "src/coding/004-fibonacci-sequence-generator-with-saved-state.rs"
+
+[[bin]]
+name = "iced_explorer"
+path = "src/coding/005-gui-file-explorer.rs"
+
+[[bin]]
+name = "country_visualizer"
+path = "src/coding/006-rest-countries-egui-app.rs"
+
+[[bin]]
+name = "todo_backend"
+path = "src/coding/007-actix-todo-api.rs"
+
 [dependencies]
 my_libs = { path = "./libs" }
+tokio = { version = "1.0", features = ["full"] }
 
