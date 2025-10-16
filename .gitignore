@@ -10,3 +10,7 @@ tags.lock
 tags.temp
 win_commands.txt
 
+# Binaries for C code
+dangling_pointer
+implicit_conversion
+
