@@ -139,4 +139,5 @@ path = "src/coding/007-actix-todo-api.rs"
 [dependencies]
 my_libs = { path = "./libs" }
 tokio = { version = "1.0", features = ["full"] }
+rand = "0.10.0-rc.0"
 
